@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#e6f0eb">
+<meta name="description" content="درس تفاعلي ثلاثي الأبعاد في البحث عن الوسائط المتعددة، معلمة المقرر: أمل الزهراني.">
+<title>البحث عن الوسائط المتعددة وإنشاء وتحرير مقاطع الفيديو</title>
+<style>
+@font-face{font-family:Lesson;src:url(data:font/woff;base64,__FONT__) format('woff');font-weight:100 900;font-display:swap}
+/*__STYLE__*/
+</style>
+</head>
+<body>
+<a href="#page" class="skip-link">انتقل إلى محتوى الصفحة</a>
+<div class="desk-decor" aria-hidden="true"><i class="decor-spark">✦</i><i class="decor-ring"></i><i class="decor-cross">+</i><i class="decor-wave">﹏</i></div>
+<div id="app">
+ <header class="app-toolbar">
+  <div class="toolbar-group"><button class="tool-button" id="homeButton" aria-label="العودة إلى البداية"></button><button class="tool-button index-button" id="indexButton"></button></div>
+  <div class="toolbar-center"><span class="tiny-dot"></span><span id="sectionLabel">البحث عن الوسائط المتعددة</span></div>
+  <div class="toolbar-group"><button class="tool-button" id="fullscreenButton" aria-label="ملء الشاشة"></button></div>
+ </header>
+ <main class="paper-holder" id="main">
+  <article class="sheet" id="sheet" aria-label="صفحة الدرس">
+   <div class="spiral" aria-hidden="true"></div>
+   <div class="page-corner" aria-hidden="true"></div>
+   <div class="lesson-page" id="page" tabindex="-1"></div>
+   <div class="sheet-foot"><span id="footTopic"></span><span class="paper-number" id="paperNumber"></span></div>
+  </article>
+ </main>
+ <nav class="page-nav" aria-label="التنقل بين صفحات الدرس">
+  <button class="nav-button" id="previousButton"></button>
+  <div class="page-position"><span id="pageCounter" aria-live="polite"></span><div class="progress-track"><i id="progressFill"></i></div></div>
+  <button class="nav-button next" id="nextButton"></button>
+ </nav>
+</div>
+<div class="sr-only" id="announcer" aria-live="polite"></div>
+<script>window.LESSON_VIDEO='data:video/mp4;base64,__VIDEO__';</script>
+<script>/*__RENDERER__*/</script>
+<script>/*__APP__*/</script>
+</body>
+</html>
